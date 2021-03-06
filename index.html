@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survay Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Sorts+Mill+Goudy:ital@1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <h1 id="title">NET<span>FLIX</span></h1>
+      <h3 id="description">
+        Thank you for signing up at Netflix. Tell us more about yourself.
+      </h3>
+      <form
+        action="result.html"
+        method="get"
+        name="form"
+        target="_blank"
+        class="survey-form"
+      >
+        <div class="survey-form__input-box">
+          <label for="name" id="name-label">Name</label>
+          <br />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="survey-form__input-box--content"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="survey-form__input-box">
+          <label for="age" id="age-label">Age</label>
+          <br />
+          <input
+            type="number"
+            name="age"
+            id="age"
+            class="survey-form__input-box--content"
+            placeholder="age"
+            required
+            min="18"
+            max="99"
+          />
+        </div>
+        <div class="survey-form__input-box">
+          <label for="email" id="email-label">Email</label>
+          <br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="survey-form__input-box--content"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <div class="survey-form__input-box">
+          <label for="dropdown" id="dropdown-label">Content Type</label>
+          <br />
+          <select
+            name="dropdown"
+            id="dropdown"
+            class="survey-form__input-box--content"
+          >
+            <option value="Movie">Movie</option>
+            <option value="Series" selected>Series</option>
+          </select>
+        </div>
+        <div class="survey-form__input-box">
+          <label id="checkbox">Movie Type</label>
+          <br />
+          <label for="comedy"
+            ><input
+              type="checkbox"
+              name="comedy"
+              id="comedy"
+              value="comedy"
+              checked
+            />Comedy</label
+          ><br />
+          <label for="action"
+            ><input
+              type="checkbox"
+              name="action"
+              id="action"
+              value="action"
+            />Action</label
+          ><br />
+          <label for="romance"
+            ><input
+              type="checkbox"
+              name="romance"
+              id="romance"
+              value="romance"
+            />Romance</label
+          >
+        </div>
+        <div class="survey-form__input-box">
+          <label id="radiobtn">Gender</label>
+          <br />
+          <label for="male"
+            ><input
+              type="radio"
+              name="male"
+              id="male"
+              value="male"
+              checked
+            />Male</label
+          ><br />
+          <label for="female"
+            ><input
+              type="radio"
+              name="female"
+              id="female"
+              value="female"
+            />Female</label
+          ><br />
+          <label for="other"
+            ><input
+              type="radio"
+              name="other"
+              id="other"
+              value="other"
+            />Other</label
+          >
+        </div>
+        <div class="survey-form__input-box">
+          <label for="feedback" id="feed-label">Feedback</label>
+          <br />
+          <textarea
+            name="message"
+            id="feedback"
+            cols="50"
+            rows="5"
+            placeholder="Any comment"
+            style="resize: none"
+            class="textarea"
+          ></textarea>
+        </div>
+        <input type="submit" value="Send" id="submit" />
+      </form>
+    </div>
+  </body>
+</html>
