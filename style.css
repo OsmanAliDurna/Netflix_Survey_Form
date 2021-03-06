@@ -7,14 +7,14 @@ body {
   color: white;
 }
 #container {
-  margin: 30px 100px;
+  margin: 15px 50px;
   background-color: rgba(0, 0, 0, 0.3);
 }
 #title {
   font-family: "Bowlby One SC", cursive;
-  font-size: 50px;
-  padding-top: 15px;
-  letter-spacing: 5px;
+  font-size: 25px;
+  padding-top: 8px;
+  letter-spacing: 3px;
   text-align: center;
 }
 span {
@@ -22,37 +22,37 @@ span {
 }
 #description {
   font-family: "Sorts Mill Goudy", serif;
-  margin-bottom: 15px;
-  font-size: 23px;
+  margin-bottom: 8px;
+  font-size: 12px;
   text-align: center;
 }
 
 .survey-form {
-  width: 500px;
+  width: 250px;
   height: auto;
   background-color: rgba(0, 0, 0, 0.8);
-  padding-top: 10px;
+  padding-top: 5px;
   margin: auto;
 }
 .survey-form__input-box {
-  margin-top: 20px;
-  margin-left: 40px;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 .survey-form__input-box--content {
-  width: 400px;
-  height: 40px;
-  padding: 10px;
-  margin-top: 16px;
+  width: 200px;
+  height: 20px;
+  padding: 5px;
+  margin-top: 8px;
 }
 #submit {
-  height: 45px;
-  width: 160px;
+  height: 23px;
+  width: 80px;
   background-color: #ff0000;
-  border-radius: 50px;
+  border-radius: 25px;
   display: inline-block;
   color: white;
-  margin-left: 120px;
-  margin-bottom: 16px;
+  margin-left: 60px;
+  margin-bottom: 8px;
   border: none;
   text-align: center;
 }
@@ -68,5 +68,5 @@ span {
   resize: none;
 }
 .textarea {
-  margin-top: 10px;
+  margin-top: 5px;
 }
